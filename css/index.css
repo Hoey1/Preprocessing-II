@@ -168,6 +168,24 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.navContainer {
+  margin: 50px 30px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px dashed #C0C0C0;
+}
+.navContainer h1 {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.navContainer .logo {
+  margin: 30px;
+}
+.navContainer .links {
+  justify-content: space-between;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -224,7 +242,4 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
-}
-html {
-  background-color: red;
 }
